@@ -1,6 +1,15 @@
-# BiteBook Review
+# Restaurant Review Platform
 
-A full-stack Restaurant Review Platform where users can discover restaurants, write reviews, upload photos, and search by location — built with Spring Boot, Elasticsearch, Next.js, and OAuth2.
+A full-stack restaurant review platform where users can discover restaurants, search by location, share reviews, and upload photos. The application is built with Spring Boot, Elasticsearch, Next.js, and OAuth2.
+
+## Features
+
+- Discover and search restaurants using full-text and location-based search
+- View restaurant details, operating hours, photos, and reviews
+- Create, update, and delete restaurants and reviews
+- Upload and manage restaurant photos
+- Secure authenticated actions with Keycloak and OAuth2/JWT
+- Explore restaurant locations with OpenStreetMap and Leaflet
 
 ---
 
@@ -122,7 +131,7 @@ UI available at `http://localhost:3000`.
 ## Project Structure
 
 ```
-bitebookreview/
+restaurant-review-platform/
 ├── backend/
 │   ├── docker-compose.yaml          # Elasticsearch + Kibana + Keycloak
 │   ├── pom.xml
@@ -148,3 +157,5 @@ bitebookreview/
     ├── providers/                   # Auth + context providers
     └── services/api/                # Axios API service layer
 ```
+
+> The current source package names retain the original `com.bitebookreview` identifier for compatibility. The product is presented and documented as **Restaurant Review Platform**.
