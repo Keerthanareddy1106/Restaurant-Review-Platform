@@ -159,3 +159,8 @@ restaurant-review-platform/
 ```
 
 > The current source package names retain the original `com.bitebookreview` identifier for compatibility. The product is presented and documented as **Restaurant Review Platform**.
+
+## Contributors
+
+- Keerthanareddy
+- Copilot
